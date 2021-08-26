@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Circe-Thin';
+  src: url('Circe-Thin.svg#Circe-Thin') format('svg'),
+       url('Circe-Thin.ttf') format('truetype'),
+       url('Circe-Thin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'circe-thin';
+  src: url('circe-thin.eot');
+  src: url('circe-thin.eot?#iefix') format('embedded-opentype'),
+       url('circe-thin.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

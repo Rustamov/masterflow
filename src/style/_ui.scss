@@ -432,142 +432,142 @@ frame {
 // END @extends;
 
 
-.visible-up {
-  &-sm {
-    display: none;
-    @include media-breakpoint-up(sm) {
-      display: block;
-    }
-  }
-  &-md {
-    display: none;
-    @include media-breakpoint-up(md) {
-      display: block;
-    }
-  }
-  &-lg {
-    display: none;
-    @include media-breakpoint-up(lg) {
-      display: block;
-    }
-  }
-  &-xl {
-    display: none;
-    @include media-breakpoint-up(xl) {
-      display: block;
-    }
-  }
-}
+// .visible-up {
+//   &-sm {
+//     display: none;
+//     @include media-breakpoint-up(sm) {
+//       display: block;
+//     }
+//   }
+//   &-md {
+//     display: none;
+//     @include media-breakpoint-up(md) {
+//       display: block;
+//     }
+//   }
+//   &-lg {
+//     display: none;
+//     @include media-breakpoint-up(lg) {
+//       display: block;
+//     }
+//   }
+//   &-xl {
+//     display: none;
+//     @include media-breakpoint-up(xl) {
+//       display: block;
+//     }
+//   }
+// }
 
-.visible-up-inline {
-  &-sm {
-    display: none;
-    @include media-breakpoint-up(sm) {
-      display: inline;
-    }
-  }
-  &-md {
-    display: none;
-    @include media-breakpoint-up(md) {
-      display: inline;
-    }
-  }
-  &-lg {
-    display: none;
-    @include media-breakpoint-up(lg) {
-      display: inline;
-    }
-  }
-  &-xl {
-    display: none;
-    @include media-breakpoint-up(xl) {
-      display: inline;
-    }
-  }
-}
-
-
-
-.hide-up {
-
-  &-sm {
-    @include media-breakpoint-up(sm) {
-      display: none;
-    }
-  }
-
-  &-md {
-    @include media-breakpoint-up(md) {
-      display: none;
-    }
-  }
-  &-lg {
-    @include media-breakpoint-up(lg) {
-      display: none;
-    }
-  }
-  &-xl {
-    @include media-breakpoint-up(xl) {
-      display: none;
-    }
-  }
-}
-
-.hide-down {
-  &-xl {
-    @include media-breakpoint-down(xl) {
-      display: none;
-    }
-  }
-
-  &-lg {
-    @include media-breakpoint-down(lg) {
-      display: none;
-    }
-  }
-
-  &-md {
-    @include media-breakpoint-down(md) {
-      display: none;
-    }
-  }
-
-  &-sm {
-    @include media-breakpoint-down(sm) {
-      display: none;
-    }
-  }
+// .visible-up-inline {
+//   &-sm {
+//     display: none;
+//     @include media-breakpoint-up(sm) {
+//       display: inline;
+//     }
+//   }
+//   &-md {
+//     display: none;
+//     @include media-breakpoint-up(md) {
+//       display: inline;
+//     }
+//   }
+//   &-lg {
+//     display: none;
+//     @include media-breakpoint-up(lg) {
+//       display: inline;
+//     }
+//   }
+//   &-xl {
+//     display: none;
+//     @include media-breakpoint-up(xl) {
+//       display: inline;
+//     }
+//   }
+// }
 
 
 
-}
+// .hide-up {
+
+//   &-sm {
+//     @include media-breakpoint-up(sm) {
+//       display: none;
+//     }
+//   }
+
+//   &-md {
+//     @include media-breakpoint-up(md) {
+//       display: none;
+//     }
+//   }
+//   &-lg {
+//     @include media-breakpoint-up(lg) {
+//       display: none;
+//     }
+//   }
+//   &-xl {
+//     @include media-breakpoint-up(xl) {
+//       display: none;
+//     }
+//   }
+// }
+
+// .hide-down {
+//   &-xl {
+//     @include media-breakpoint-down(xl) {
+//       display: none;
+//     }
+//   }
+
+//   &-lg {
+//     @include media-breakpoint-down(lg) {
+//       display: none;
+//     }
+//   }
+
+//   &-md {
+//     @include media-breakpoint-down(md) {
+//       display: none;
+//     }
+//   }
+
+//   &-sm {
+//     @include media-breakpoint-down(sm) {
+//       display: none;
+//     }
+//   }
 
 
-@include media-breakpoint-down(lg) {
-}
 
-@include media-breakpoint-down(md) {
-}
-
-@include media-breakpoint-down(sm) {
-}
-
-@include media-breakpoint-down(xs) {
-}
+// }
 
 
+// @include media-breakpoint-down(lg) {
+// }
 
-@include media-breakpoint-up(sm) {
-}
+// @include media-breakpoint-down(md) {
+// }
 
-@include media-breakpoint-up(md) {
-}
+// @include media-breakpoint-down(sm) {
+// }
 
-@include media-breakpoint-up(lg) {
-}
+// @include media-breakpoint-down(xs) {
+// }
 
-@include media-breakpoint-up(xl) {
-}
+
+
+// @include media-breakpoint-up(sm) {
+// }
+
+// @include media-breakpoint-up(md) {
+// }
+
+// @include media-breakpoint-up(lg) {
+// }
+
+// @include media-breakpoint-up(xl) {
+// }
 
 /*
 @include rule(, (xs: , lg: ));
