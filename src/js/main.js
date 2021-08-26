@@ -13,6 +13,14 @@ let $body,
 
 $(document).ready(function () {
     $body = $("body");
+
+    $('.js-banner-slider').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true
+    });
 });
 
 window.globalOptions = {

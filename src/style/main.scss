@@ -121,6 +121,10 @@ body {
     max-width: 650px;
   }
 
+  // &:not(.slick-slide):not(:first-child) &__slide {
+  //   display: none;
+  // }
+  
   &__item {
     min-height: 545px;
     position: relative;
@@ -128,6 +132,8 @@ body {
     display: flex;
     align-items: center; 
     padding: 0px 95px 0 80px;
+
+    
     
     &-text-1 {
       font-size: 36px;
@@ -163,6 +169,12 @@ body {
     right: 95px;
     transform: translate(0, -50%);
   }
+
+  &__slide {
+    &:not(.slick-slide):not(:first-child) {
+      display: none;
+    }
+  } 
 
 
 
