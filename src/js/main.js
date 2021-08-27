@@ -21,6 +21,17 @@ $(document).ready(function () {
         arrows: false,
         dots: true
     });
+
+    $('.js-m-slider').slick({
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        arrows: false,
+        dots: false,
+        arrows: true,
+        prevArrow: '<button type="button" class="slick-prev"><svg width="7" height="10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L2 5l4-4" stroke="#fff" stroke-width="2"/></svg></button>',
+        nextArrow: '<button type="button" class="slick-next"><svg width="7" height="10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 9l4-4-4-4" stroke="#fff" stroke-width="2"/></svg></button>',
+    });
 });
 
 window.globalOptions = {
